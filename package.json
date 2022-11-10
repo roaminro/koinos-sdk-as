@@ -12,7 +12,7 @@
     "@koinos/as-gen": "1.0.0",
     "@koinos/as-proto-gen": "1.0.0",
     "@koinos/mock-vm": "1.0.0",
-    "@koinos/proto-as": "1.0.0",
+    "@koinos/proto-as": "github:roaminro/koinos-proto-as#359ab1cd45915bc5af044ad451008e6267d6ad13",
     "@koinos/sdk-as-cli": "1.0.0",
     "@roamin/protoc": "^2.4.0",
     "as-bignum": "^0.2.18",

@@ -118,7 +118,7 @@ export namespace Storage {
         const obj = direction == Direction.Ascending ? System.getNextObject<Uint8Array, TValue>(this.space, key, this.valueDecoder) : System.getPrevObject<Uint8Array, TValue>(this.space, key, this.valueDecoder);
         if (obj) {
           result.push(obj);
-          key = obj.key!;
+          key = obj.key;
         }
 
         done = obj == null || result.length >= limit;
@@ -157,7 +157,7 @@ export namespace Storage {
         // @ts-ignore key is always initialized when reaching this code
         const obj = direction == Direction.Ascending ? System.getNextObject<Uint8Array, TValue>(this.space, key, this.valueDecoder) : System.getPrevObject<Uint8Array, TValue>(this.space, key, this.valueDecoder);
         if (obj) {
-          key = obj.key!;
+          key = obj.key;
           if (offsetKey instanceof Uint8Array) {
             // @ts-ignore key here is a Uint8Array
             result.push(key);
@@ -204,7 +204,7 @@ export namespace Storage {
         const obj = direction == Direction.Ascending ? System.getNextObject<Uint8Array, TValue>(this.space, key, this.valueDecoder) : System.getPrevObject<Uint8Array, TValue>(this.space, key, this.valueDecoder);
         if (obj) {
           result.push(obj.value);
-          key = obj.key!;
+          key = obj.key;
         }
 
         done = obj == null || result.length >= limit;
@@ -412,7 +412,7 @@ export namespace Storage {
         // @ts-ignore key is always initialized when reaching this code
         const obj = direction == Direction.Ascending ? System.getNextObject<Uint8Array, TValue>(this.map.space, key, this.map.valueDecoder) : System.getPrevObject<Uint8Array, TValue>(this.map.space, key, this.map.valueDecoder);
         if (obj) {
-          key = obj.key!;
+          key = obj.key;
           result.push(Protobuf.decode(key, this.keyDecoder));
         }
 

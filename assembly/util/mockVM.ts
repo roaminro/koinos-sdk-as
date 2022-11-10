@@ -5,7 +5,7 @@ import { StringBytes } from "./stringBytes";
 
 
 export namespace MockVM {
-  export const METADATA_SPACE = new chain.object_space(true, null, 0);
+  export const METADATA_SPACE = new chain.object_space(true, new Uint8Array(0), 0);
 
   export class MockAuthority {
     autorization_type: authority.authorization_type;
@@ -397,7 +397,7 @@ export namespace MockVM {
       for (let index = 0; index < logsListType.values.length; index++) {
         const log = logsListType.values[index];
 
-        logs.push(log.string_value!);
+        logs.push(log.string_value);
       }
     }
 
@@ -453,7 +453,7 @@ export namespace MockVM {
 
       for (let index = 0; index < eventsListType.values.length; index++) {
         const eventBytes = eventsListType.values[index];
-        events.push(Protobuf.decode<system_calls.event_arguments>(eventBytes.bytes_value!, system_calls.event_arguments.decode));
+        events.push(Protobuf.decode<system_calls.event_arguments>(eventBytes.bytes_value, system_calls.event_arguments.decode));
       }
     }
 
