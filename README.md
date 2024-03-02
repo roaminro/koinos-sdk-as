@@ -1,9 +1,9 @@
-[![Test](https://github.com/koinos/koinos-sdk-as/actions/workflows/test.yml/badge.svg)](https://github.com/koinos/koinos-sdk-as/actions/workflows/test.yml)
+[![Test](https://github.com/roaminro/koinos-sdk-as/actions/workflows/test.yml/badge.svg)](https://github.com/roaminro/koinos-sdk-as/actions/workflows/test.yml)
 
 # koinos-sdk-as
 AssemblyScript (AS) Software Development Toolkit (SDK) for the Koinos Blockchain
 
-See documentation: https://koinos.github.io/koinos-sdk-as/
+See documentation: https://roaminro.github.io/koinos-sdk-as/
 
 Learn how to create smart contracts by looking at the examples repo: https://github.com/roaminro/koinos-sdk-as-examples
 
@@ -37,7 +37,7 @@ npm run buildTestContract
 yarn run buildTestContract
 ```
 
-## Upload and trigger the test contract on a local devnet using [Local-Koinos](https://github.com/roaminroe/local-koinos)
+## Upload and trigger the test contract on a local devnet using [Local-Koinos](https://github.com/roaminro/local-koinos)
 ```sh
 🚫 🔐 > open wallets/bob.wallet bob
 Opened wallet: wallets/bob.wallet
