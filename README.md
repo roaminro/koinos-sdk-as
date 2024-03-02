@@ -14,10 +14,10 @@ You need to install NodeJS v16 or higher [download](https://nodejs.org/en/downlo
 
 ```sh
 # with npm
-npm install koinos-sdk-as
+npm install @roamin/koinos-sdk-as
 
 # with yarn
-yarn add koinos-sdk-as
+yarn add @roamin/koinos-sdk-as
 ```
 ## Run unit tests
 ```sh
