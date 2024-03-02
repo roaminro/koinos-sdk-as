@@ -4,6 +4,8 @@
 	"name": "Node.js & TypeScript",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm",
+	"runArgs": ["--add-host=host.docker.internal:host-gateway"],
+  	"initializeCommand": "if [ \"${CODESPACES}\" != \"true\" ]; then umask 177 && touch ~/.npmrc; fi",
 	"customizations": {
 		"vscode": {
 			"extensions": [
@@ -11,20 +13,12 @@
 				"dbaeumer.vscode-eslint"
 			]
 		}
-	}
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	},
+	"remoteUser": "node",
+	"features": {
+	  "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+	},
+	"mounts": [
+	  "source=${localEnv:HOME}/.npmrc,target=/home/node/.npmrc,type=bind"
+	]
 }
