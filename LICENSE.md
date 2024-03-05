@@ -1,6 +1,7 @@
 MIT License
 
 Copyright (c) 2022 Roamin Ro
+
 Copyright (c) 2022 Koinos Group
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
