@@ -95,7 +95,7 @@ the following terms:
 The library, as-bignum, is used under the terms of the Apache-2.0 license, which can be obtained from https://opensource.org/licenses/Apache-2.0, and any attribution notices can be found at https://github.com/MaxGraey/as-bignum.
 
 
-The library, @koinos/proto-as Copyright (c) 2022 Koinos Group and Copyright (c) 2022 Romain Ro, is used under the terms of the MIT license, which can be obtained from https://opensource.org/licenses/MIT.
+The library, @koinos/proto-as Copyright (c) 2022 Koinos Group and Copyright (c) 2022 Roamin Ro, is used under the terms of the MIT license, which can be obtained from https://opensource.org/licenses/MIT.
 
 
-The library, @koinos/as-proto Copyright (c) 2022 Piotr Oleś <piotrek.oles@gmail.com>, Copyright (c) 2022 Romain Ro, Copyright (c) 2022 Koinos Group, is used under the terms of the MIT license, which can be obtained from https://opensource.org/licenses/MIT.
+The library, @koinos/as-proto Copyright (c) 2022 Piotr Oleś <piotrek.oles@gmail.com>, Copyright (c) 2022 Roamin Ro, Copyright (c) 2022 Koinos Group, is used under the terms of the MIT license, which can be obtained from https://opensource.org/licenses/MIT.
