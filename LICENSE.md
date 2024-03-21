@@ -1,8 +1,8 @@
 MIT License
 
-Copyright (c) 2022 Roamin Ro
+Copyright (c) 2022-2024 Roamin Ro
 
-Copyright (c) 2022 Koinos Group
+Copyright (c) 2022-2023 Koinos Group
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
