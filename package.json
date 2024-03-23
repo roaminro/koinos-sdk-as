@@ -1,16 +1,17 @@
 {
   "name": "@roamin/koinos-sdk-as",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.ts",
   "license": "MIT",
-  "author": "Roamin",
+  "author": "Roamin Ro",
   "repository": "https://github.com/roaminro/koinos-sdk-as",
+  "contributors": ["Koinos Group <contact@koinos.group>", "Julián González"],
   "type": "module",
   "dependencies": {
     "@koinos/proto-as": "1.2.0",
     "as-bignum": "^0.2.18",
-    "as-proto": "npm:@koinos/as-proto@1.0.1",
-    "assemblyscript": "^0.27.1"
+    "as-proto": "npm:@roamin/as-proto@1.0.1",
+    "assemblyscript": "^0.27.25"
   },
   "files": [
     "assembly"
@@ -18,12 +19,12 @@
   "devDependencies": {
     "@as-covers/core": "^0.4.2",
     "@as-pect/cli": "^8.0.1",
-    "@koinos/abi-proto-gen": "1.0.0",
-    "@koinos/as-gen": "1.0.0",
-    "@koinos/as-proto-gen": "1.0.0",
-    "@koinos/mock-vm": "1.0.0",
-    "@assemblyscript/wasi-shim": "^0.1.0",
+    "@roamin/koinos-abi-proto-gen": "1.0.2",
+    "@roamin/koinos-as-gen": "1.0.1",
+    "@roamin/as-proto-gen": "1.0.4",
+    "@roamin/koinos-mock-vm": "1.0.0",
     "@roamin/protoc": "^2.4.0",
+    "@assemblyscript/wasi-shim": "^0.1.0",
     "@types/node": "^17.0.13",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",

@@ -1,7 +1,10 @@
-This application uses the following dependencies that are available under their respective licenses below.
+This application uses the following dependencies that are available under 
+their respective licenses below.
 
 
-The library, AssemblyScript, is used under the terms of the Apache-2.0 license, which can be obtained from https://opensource.org/licenses/Apache-2.0, and contains the following attribution notices: 
+The library, AssemblyScript, is used under the terms of the Apache-2.0 license, 
+which can be obtained from https://opensource.org/licenses/Apache-2.0, and 
+contains the following attribution notices: 
 
 The following authors have all licensed their contributions to AssemblyScript
 under the licensing terms detailed in LICENSE:
@@ -67,35 +70,40 @@ Portions of this software are derived from third-party works licensed under
 the following terms:
 
 * TypeScript: https://github.com/Microsoft/TypeScript
-
   Copyright (c) Microsoft Corporation
   Apache License, Version 2.0 (https://opensource.org/licenses/Apache-2.0)
 
 * Binaryen: https://github.com/WebAssembly/binaryen
-
   Copyright (c) WebAssembly Community Group participants
   Apache License, Version 2.0 (https://opensource.org/licenses/Apache-2.0)
 
 * musl libc: http://www.musl-libc.org
-
   Copyright (c) Rich Felker, et al.
   The MIT License (https://opensource.org/licenses/MIT)
 
 * V8: https://developers.google.com/v8/
-
   Copyright (c) the V8 project authors
   The 3-Clause BSD License (https://opensource.org/licenses/BSD-3-Clause)
 
 * Arm Optimized Routines: https://github.com/ARM-software/optimized-routines
-
   Copyright (c) Arm Limited
   The MIT License (https://opensource.org/licenses/MIT)
 
+---------------------
 
-The library, as-bignum, is used under the terms of the Apache-2.0 license, which can be obtained from https://opensource.org/licenses/Apache-2.0, and any attribution notices can be found at https://github.com/MaxGraey/as-bignum.
+The library, as-bignum, is used under the terms of the Apache-2.0 license 
+(https://opensource.org/licenses/Apache-2.0), and any attribution notices 
+can be found at https://github.com/MaxGraey/as-bignum.
 
+---------------------
 
-The library, @koinos/proto-as Copyright (c) 2022 Koinos Group and Copyright (c) 2022 Roamin Ro, is used under the terms of the MIT license, which can be obtained from https://opensource.org/licenses/MIT.
+Dependencies under the MIT License (https://opensource.org/licenses/MIT) are: 
 
+* @koinos/proto-as
+  Copyright (c) 2022-2023 Koinos Group 
+  Copyright (c) 2022-2023 Roamin Ro
 
-The library, @koinos/as-proto Copyright (c) 2022 Piotr Oleś <piotrek.oles@gmail.com>, Copyright (c) 2022 Roamin Ro, Copyright (c) 2022 Koinos Group, is used under the terms of the MIT license, which can be obtained from https://opensource.org/licenses/MIT.
+* @koinos/as-proto
+  Copyright (c) 2022 Piotr Oleś <piotrek.oles@gmail.com>
+  Copyright (c) 2022-2023 Roamin Ro
+  Copyright (c) 2022-2023 Koinos Group

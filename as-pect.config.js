@@ -1,4 +1,4 @@
-import { MockVM } from '@koinos/mock-vm';
+import { MockVM } from '@roamin/koinos-mock-vm';
 
 export default {
   /**
